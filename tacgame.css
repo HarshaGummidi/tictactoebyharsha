@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.drawmsg{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    margin-bottom: 100px;
+}
+.winnermsg{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    margin-bottom: 100px;
+}
+.hide2{
+    display: none;
+}
+.hide{
+    display: none ;
+}
+body{
+    background-color: #89D5D4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boxcontainer{
+    height: 60vh;
+    width: 35vw;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.xclr{
+    color: #DDB967;
+}
+.oclr{
+    color: #8E4A49;
+}
+.box{
+    height: 20vh;
+    width: 20vh;
+    font-size: 15vh;
+    background-color: #2191FB;
+    border-radius: 10px;
+    box-shadow: 10px 20px 50px #8E4A49;
+    border: none;
+}
+.hover:hover{
+    transform: scale(1.2);
+}
+.resetbtn{
+    margin-top: 50px ;
+    margin-bottom: 10px;
+    height: 3rem;
+    width: 10rem;
+    background-color: #fffffc;
+    font-size: xx-large;
+    box-shadow: 3px 10px 20px rgb(56, 116, 134);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    border: none;
+}
+.newbtn{
+    margin-top: 30px ;
+    height: 4rem;
+    width: 11rem;
+    box-shadow: 3px 10px 20px rgb(56, 116, 134);
+    background-color: #fffffc;
+    font-size: large;
+    border-radius: 15px;
+    border: none;
+}
+.newbtn2{
+    margin-top: 30px ;
+    height: 4rem;
+    width: 11rem;
+    box-shadow: 3px 10px 20px rgb(56, 116, 134);
+    background-color: #fffffc;
+    font-size: large;
+    border-radius: 15px;
+    border: none;
+}
